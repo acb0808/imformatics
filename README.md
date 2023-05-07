@@ -44,7 +44,7 @@ print(' '.join(input().split()[::-1]))
 ```py
 list(map(int,input().split()))
 ```
-54번문제 - lambda는 일회성 함수로, 간단한 함수를 표현합니다. map함수와 같이 사용했습니다
+54번문제 - lambda는 익명 함수로, 간단한 함수를 표현합니다. map함수와 같이 사용했습니다
 ```py
 list(map(lambda x:bool(int(x)), input().split()))
 ```
